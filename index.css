@@ -1,0 +1,44 @@
+
+.header {
+    width: 100%;
+    height: 65px;
+    position: relative;
+    margin: 0;
+    background: #fff;
+
+}
+
+.header-container {
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    background: white;
+    z-index: 999;
+}
+
+.header-logo {
+    float: left;
+    text-decoration: none;
+    height: 58px;
+    line-height: 58px;
+    text-align: left;
+
+}
+
+.header-menu-list {
+    float: right;
+    margin: 0;
+}
+
+.menu-list li {
+    float: left;
+    margin: 0;
+    border-left: 1px solid #ebebeb;
+    border-radius: 20px;
+    background: #00efff;
+    width: 143px;
+    height: 65px;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
